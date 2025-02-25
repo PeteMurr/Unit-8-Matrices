@@ -6,6 +6,18 @@ public class Biggest
 {
     public static int getBig(int[][] m)
     {
-		return -1;
+      int big = m[0][0];
+		 for ( int [] row : m)
+     {
+        for ( int col : row)
+        {
+            if ( col > big )
+            {
+              big = col;
+            }
+        }
+     }
+     
+      return big;
     }
 }
