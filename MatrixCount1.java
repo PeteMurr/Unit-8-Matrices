@@ -25,6 +25,7 @@ public class MatrixCount1
                 if(j==val)
                 {
                     count++;
+			
                 }
             }
         }
